@@ -26,6 +26,7 @@ build
 !.vscode/*.code-snippets
 !*.code-workspace
 *.vsix
+!.vscode/eclipse-java-google-style.xml
 
 # other
 eclipse

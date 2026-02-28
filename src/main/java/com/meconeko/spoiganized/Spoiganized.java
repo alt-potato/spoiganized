@@ -28,7 +28,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
+// ref: https://mcstreetguy.github.io/ForgeJavaDocs/1.20.1-47.1.0/
+
 @Mod(Spoiganized.MODID)
 public class Spoiganized {
     public static final String MODID = "spoiganized";

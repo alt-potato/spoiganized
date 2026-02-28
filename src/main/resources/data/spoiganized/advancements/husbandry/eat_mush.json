@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "eat_mush": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "spoiganized:mush"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.spoiganized.eatMush.description",
+      "fallback": "Eat some mush from spoiled food"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "spoiganized:mush"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.spoiganized.eatMush.title",
+      "fallback": "...Ew."
+    }
+  },
+  "requirements": [
+    [
+      "eat_mush"
+    ]
+  ],
+  "rewards": {
+    "loot": [],
+    "experience": 1
+  }
+}

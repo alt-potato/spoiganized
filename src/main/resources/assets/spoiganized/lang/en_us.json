@@ -1,3 +1,6 @@
 {
-    "item.spoiganized.mush": "Mush"
+  "itemGroup.spoiganized.base": "Spoiganized",
+  "item.spoiganized.mush": "Mush",
+  "advancements.spoiganized.eatMush.title": "...Ew.",
+  "advancements.spoiganized.eatMush.description": "Eat some mush from spoiled food"
 }
